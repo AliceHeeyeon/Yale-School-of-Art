@@ -1,0 +1,207 @@
+/* Bootstrap icon */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;800&display=swap');
+
+/* resets */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------- elements ---------- */
+
+/* general */
+
+body {
+    font-family: 'Abhaya Libre', serif;
+}
+
+#nav-links li {
+    color: white;
+}
+
+/* typography */
+
+h1 {
+    font-weight: 800;
+}
+
+h2,
+h3 {
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+/* navbar */
+
+nav {
+    display: flex;
+    padding: 10px 10px 0px 10px;
+    background: black;
+}
+
+#nav-logo {
+    width: 50%;
+}
+
+#nav-logo img {
+    width: 170px;
+}
+
+#nav-links {
+    width: 50%;
+    text-align: right;
+}
+
+#hamburger-icon {
+    font-size: 33px;
+    color: white;
+    position: relative;
+}
+
+#nav-list {
+    display: none;
+    position: absolute;
+    width: 40%;
+    top: 57px;
+    left: 60%;
+    text-align: right;
+    background: black;
+    padding: 15px 30px 20px 25px;
+}
+
+#nav-list.visible {
+    display: block;
+}
+
+#nav-list li {
+    list-style-type: none;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+/* hero */
+
+#hero {
+    text-align: center;
+}
+
+#hero img {
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* feature section */
+
+#feature-section {
+    padding: 15px;
+}
+
+.container {
+    position: relative;
+    margin-left: 5px;
+}
+
+.feature-box {
+    margin-left: 5px;
+    margin-bottom: 50px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background: white;
+    border: 1px solid #ffffff;
+    box-shadow: 2px 4px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.feature-box img {
+    width: 100%;
+}
+
+.text-container {
+    padding: 20px 10px 20px 20px;
+}
+
+.feature-box h3 {
+    margin-bottom: 15px;
+}
+
+.yellow-shadow {
+    position: absolute;
+    background: #F2B70A;
+    position: absolute;
+    z-index: -1;
+    top: 20px;
+    right: 20px;
+    width: 96%;
+    height: 99%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button-container {
+    text-align: center;
+}
+
+.cta-course {
+    display: inline-block;
+    border: 3px solid black;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    margin-top: 20px;
+    padding: 5px 15px;
+    font-size: 20px;
+}
+
+.link-to-events h3 {
+    text-decoration-line: underline;
+    text-underline-offset: 0.3em;
+}
+
+/* footer */
+
+footer {
+    background: #F2B70A;
+}
+
+.footer-contents {
+    text-align: center;
+    padding: 25px 10px 20px 10px;
+}
+
+.footer-logo {
+    font-size: 11px;
+}
+
+.footer-address {
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.links-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#footer-links {
+    margin: 8px;
+    font-size: 20px;
+    color: white;
+}
+
+.copyright {
+    font-size: 12px;
+    font-weight: 800;
+}

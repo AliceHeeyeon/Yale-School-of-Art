@@ -1,0 +1,49 @@
+// footer
+
+ul li {
+    list-style-type: none;
+    line-height: 20px;
+}
+
+footer {
+    background: $primary-yellow;
+}
+
+#footer-section-2,
+#footer-section-3,
+#footer-section-4 {
+    display: none;
+}
+
+.footer-column {
+    text-align: center;
+    padding: 25px 10px 20px 10px;
+}
+
+.footer-logo {
+    font-size: 11px;
+}
+
+.footer-address {
+    padding: 5px;
+    font-size: 12px;
+    font-weight: $bold-weight;
+}
+
+.links-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#footer-links {
+    margin: 8px;
+    font-size: 20px;
+    color: white;
+}
+
+#copyright-mobile {
+    font-size: 12px;
+    font-weight: $extra-bold-weight;
+}

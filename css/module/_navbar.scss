@@ -1,0 +1,70 @@
+//mixin
+@mixin transition-ease {
+    transition: all 0.5s ease-in-out;
+}
+
+// navbar
+nav {
+    display: flex;
+    padding: 5px 20px 7px 20px;
+    align-items: center;
+    justify-content: space-between;
+    background: $primary-black;
+}
+
+#nav-logo img {
+    padding-top: 5px;
+    width: 170px;
+}
+
+#nav-links {
+    display: flex;
+    margin: 0;
+}
+
+#nav-list {
+    display: none;
+    gap: 4rem;
+    font-size: 20px;
+    padding-right: 20px;
+    list-style-type: none;
+}
+
+#hamburger-icon {
+    font-size: 33px;
+    color: $primary-white;
+    position: relative;
+    top: 4px;
+}
+
+//dropdown 
+
+#dropdown-menu {
+    display: none;
+    position: absolute;
+    width: 70%;
+    top: 52px;
+    left: 50%;
+    text-align: left;
+    background: $primary-black;
+    color: $primary-white;
+    padding: 15px 30px 20px 25px;
+}
+
+#dropdown-menu.visible {
+    display: block;
+}
+
+#dropdown-menu {
+    li {
+        list-style-type: none;
+        font-size: 18px;
+        margin-bottom: 8px;
+        color: $primary-white;
+        line-height: 35px;
+    }
+
+    i {
+        margin-right: 5px;
+    }
+}

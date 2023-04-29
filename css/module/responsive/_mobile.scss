@@ -1,0 +1,135 @@
+//typography
+
+h1 {
+    font-size: $h1-size-mobile;
+    font-weight: $extra-bold-weight;
+}
+
+h2 {
+    font-size: $h2-size-mobile;
+}
+
+h3 {
+    font-weight: $extra-bold-weight;
+    font-size: $h3-size-mobile;
+}
+
+
+//general elements
+a {
+    color: $primary-white;
+
+    &:hover {
+        color: $primary-yellow;
+        @include transition-ease;
+    }
+}
+
+.cta-button {
+    display: none;
+}
+
+// hero
+
+#hero {
+    text-align: center;
+}
+
+#hero-image {
+    background-image: url(../img/Home/main.svg);
+    margin-bottom: 30px;
+    height: 250px;
+    background-size: cover;
+}
+
+
+#hero-text span {
+    color: $primary-yellow;
+}
+
+
+h1 {
+    margin-bottom: 20px;
+}
+
+// feature section
+
+#feature-section {
+    padding: 15px;
+
+    #feature-boxes-container {
+        .yellow-shadow {
+            position: absolute;
+            background: $primary-yellow;
+            z-index: -1;
+            top: 20px;
+            right: 20px;
+            width: 96%;
+            height: 99%;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+    }
+}
+
+.course-container,
+.first-event-container,
+.second-event-container,
+.third-event-container {
+    position: relative;
+    margin-left: 5px;
+}
+
+
+
+.feature-box {
+    margin-left: 5px;
+    margin-bottom: 50px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background: $primary-white;
+    border: 1px solid #ffffff;
+    box-shadow: 2px 4px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.feature-box img {
+    width: 100%;
+}
+
+.text-container {
+    padding: 20px 10px 20px 20px;
+}
+
+.feature-box h3 {
+    margin-bottom: 15px;
+    color: $primary-black;
+
+
+    &:hover {
+        color: $primary-yellow;
+        @include transition-ease;
+    }
+}
+
+
+
+
+.button-container {
+    text-align: center;
+}
+
+.cta-course {
+    display: inline-block;
+    border: 3px solid black;
+    text-decoration: none;
+    color: $primary-black;
+    font-weight: $extra-bold-weight;
+    margin-top: 20px;
+    padding: 5px 15px;
+    font-size: 20px;
+}
+
+.link-to-events h3 {
+    text-decoration-line: underline;
+    text-underline-offset: 0.3em;
+
+}
